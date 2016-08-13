@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:id="@+id/test"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="categories to include"/>
+
+            <LinearLayout
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkbox_1"
+                    android:onClick="onCheckboxClicked"
+                    android:text="event management"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkbox_2"
+                    android:onClick="onCheckboxClicked"
+                    android:text="catering"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkbox_2v"
+                        android:visibility="gone"
+                        android:layout_marginLeft="16dp"
+                        android:onClick="onCheckboxClicked"
+                        android:text="vegetarian"/>
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkbox_2n"
+                        android:visibility="gone"
+                        android:layout_marginLeft="16dp"
+                        android:onClick="onCheckboxClicked"
+                        android:text="non vegetarian"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkbox_3"
+                    android:onClick="onCheckboxClicked"
+                    android:text="videography"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkbox_4"
+                    android:onClick="onCheckboxClicked"
+                    android:text="photography"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkbox_5"
+                    android:onClick="onCheckboxClicked"
+                    android:text="travels"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkbox_6"
+                    android:onClick="onCheckboxClicked"
+                    android:text="decaration"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkbox_7"
+                    android:onClick="onCheckboxClicked"
+                    android:text="lighting and sound"/>
+            </LinearLayout>
+</LinearLayout>
